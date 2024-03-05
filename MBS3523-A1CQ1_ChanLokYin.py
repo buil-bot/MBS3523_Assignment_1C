@@ -1,10 +1,8 @@
 import cv2
 import serial
 
-# Create a serial object
 ser = serial.Serial("com5", 9600)
 
-# Create a video capture object for the webcam
 cap = cv2.VideoCapture(0)
 
 while True:
